@@ -176,9 +176,6 @@ window.onload = function() {
     musicPlayer.loop = true;
     musicPlayer.volume = 0.3;
     document.body.appendChild(musicPlayer);
-
-    // Opcional: Adicionar controles para tocar/pausar
-    musicPlayer.controls = true; // Mostra controles padrão do HTML5
     
     const musicToggle = document.createElement('div');
     musicToggle.className = 'music-toggle';
