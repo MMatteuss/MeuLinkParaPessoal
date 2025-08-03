@@ -172,10 +172,13 @@ window.onload = function() {
     
     // Add music player (optional)
     const musicPlayer = document.createElement('audio');
-    musicPlayer.src = 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3'; // Replace with your music
+    musicPlayer.src = 'music/Tonight You Belong To Me.mp3'; // Caminho corrigido
     musicPlayer.loop = true;
     musicPlayer.volume = 0.3;
     document.body.appendChild(musicPlayer);
+
+    // Opcional: Adicionar controles para tocar/pausar
+    musicPlayer.controls = true; // Mostra controles padrão do HTML5
     
     const musicToggle = document.createElement('div');
     musicToggle.className = 'music-toggle';
