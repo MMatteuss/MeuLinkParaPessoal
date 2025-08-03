@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yale | Bio Links</title>
+    <title>RestYale | Bio Links</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
     <div class="particles" id="particles"></div>
@@ -13,51 +15,48 @@
     <div class="container">
         <div class="pixel-corners">
             <div class="header">
-                <!-- Replace with your actual avatar GIF -->
                 <img src="https://i.gifer.com/origin/b4/b4d657e7ef262b88eb5f7ac021edda87.gif" alt="Avatar" class="avatar">
                 <div>
-                    <h1 class="title">Yale</h1>
-                    <p class="subtitle">#1 Legal, Máquela, Brasil</p>
+                    <h1 class="title">RestYale</h1>
+                    <p class="subtitle">YaleGames | Brazil</p>
+                    <p class="bio">18y | Programmer<br>PC Master | Guitar Player<br>"Living in a world of code and rock"</p>
                 </div>
             </div>
             
             <div class="stats">
                 <div class="stat-item">
-                    <div class="stat-value">Nivel 4</div>
-                    <div class="stat-label">Comida de indicação dos Pirene</div>
+                    <div class="stat-value">Nível 3</div>
+                    <div class="stat-label">Você pode destacar uma insígnia</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-value">160</div>
-                    <div class="stat-label">Horas de jogo</div>
+                    <div class="stat-value">56.8h</div>
+                    <div class="stat-label">2 últimas semanas</div>
                 </div>
             </div>
             
             <hr class="divider">
             
-            <h2 class="section-title">Apoio favorito</h2>
-            <p style="color: var(--accent); text-align: center; margin-bottom: 15px;">VKCHAT</p>
-            
             <h2 class="section-title">Atividade recente</h2>
             <div class="game-activity">
-                <div class="game-item">
-                    <span class="game-name">VKCHAT</span>
+                <div class="game-item active">
+                    <span class="game-name">VRChat</span>
                     <div>
-                        <span class="game-hours">120 horas</span>
+                        <span class="game-hours">131 horas</span>
+                        <div class="game-status">Em jogo</div>
+                    </div>
+                </div>
+                <div class="game-item">
+                    <span class="game-name">Desktop Mate</span>
+                    <div>
+                        <span class="game-hours">46 horas</span>
                         <div class="game-last-played">última vez: 3 de ago.</div>
                     </div>
                 </div>
                 <div class="game-item">
-                    <span class="game-name">STEAMYF</span>
+                    <span class="game-name">FPS Chess</span>
                     <div>
-                        <span class="game-hours">373 horas</span>
-                        <div class="game-last-played">última vez: 3 de ago.</div>
-                    </div>
-                </div>
-                <div class="game-item">
-                    <span class="game-name">Alanek Fredesin Elite</span>
-                    <div>
-                        <span class="game-hours">2.5 horas</span>
-                        <div class="game-last-played">última vez: 3 de ago.</div>
+                        <span class="game-hours">0.8 horas</span>
+                        <div class="game-last-played">última vez: 23 de jul.</div>
                     </div>
                 </div>
             </div>
@@ -76,11 +75,17 @@
             </a>
             
             <div class="footer">
-                Atualizado em: <span id="current-date"></span>
+                <div class="badges">
+                    <span class="badge">10 +</span>
+                    <span class="badge">Jogos 11</span>
+                    <span class="badge">Inventário</span>
+                    <span class="badge">Análises 2</span>
+                </div>
+                <p>Atualizado em: <span id="current-date"></span></p>
             </div>
         </div>
     </div>
 
-
+    <!-- O CSS e JS devem ser mantidos do código anterior -->
 </body>
 </html>
