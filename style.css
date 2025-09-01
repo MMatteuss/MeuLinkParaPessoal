@@ -19,11 +19,9 @@
 body {
     background-color: var(--dark);
     color: var(--light);
-    background-image: 
-        radial-gradient(circle at 10% 20%, rgba(255, 102, 178, 0.15) 0%, transparent 25%),
-        radial-gradient(circle at 90% 80%, rgba(102, 179, 255, 0.15) 0%, transparent 25%),
-        url('https://i.imgur.com/X3ZQX7A.png'); /* Fundo com patinhas sutis */
+    background-image: url('gif/New community features for Google Chat and an update on Currents.gif');
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
     min-height: 100vh;
     overflow-x: hidden;
