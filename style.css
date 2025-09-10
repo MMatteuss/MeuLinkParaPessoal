@@ -56,7 +56,7 @@ body {
     position: absolute;
     width: 30px;
     height: 30px;
-    background-image: url('https://i.imgur.com/JR4Qe0a.png'); /* Paw print */
+    /* background-image: url('https://i.imgur.com/JR4Qe0a.png'); Paw print */
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 0.7;
@@ -100,7 +100,7 @@ body {
     left: -10px;
     right: -10px;
     bottom: -10px;
-    background-image: url('https://i.imgur.com/8QZQZvQ.png'); /* Estrelas e corações */
+    /* background-image: url('https://i.imgur.com/8QZQZvQ.png'); Estrelas e corações */
     background-size: contain;
     opacity: 0.3;
     pointer-events: none;
@@ -396,14 +396,14 @@ body {
 .deco1 {
     top: 10%;
     left: 5%;
-    background-image: url('https://i.imgur.com/KjQvZQ9.png'); /* Neko girl */
+    /* background-image: url('https://i.imgur.com/KjQvZQ9.png'); Neko girl */
     animation: floatUpDown 6s ease-in-out infinite;
 }
 
 .deco2 {
     bottom: 10%;
     right: 5%;
-    background-image: url('https://i.imgur.com/LmQvZQ9.png'); /* Furry fox */
+    /* background-image: url('https://i.imgur.com/LmQvZQ9.png'); Furry fox */
     animation: floatUpDown 5s ease-in-out infinite reverse;
 }
 
