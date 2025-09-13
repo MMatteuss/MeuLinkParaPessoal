@@ -119,7 +119,7 @@ function setupGameItemEffects() {
             const gameName = item.querySelector('.game-name').textContent;
             const tooltip = document.createElement('div');
             tooltip.className = 'game-tooltip';
-            tooltip.textContent = `Jogando ${gameName} ❤️`;
+            tooltip.textContent = `Eu amo jogar ${gameName} ❤️`;
             document.body.appendChild(tooltip);
             
             const rect = item.getBoundingClientRect();
