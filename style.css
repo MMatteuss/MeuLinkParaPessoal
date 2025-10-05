@@ -19,7 +19,7 @@
 body {
     background-color: var(--dark);
     color: var(--light);
-    background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjhybjI1MGlsbWJkcTljNHhkY3E2NGEzcmZ3eWpiYm9qZTVnZjhybCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fSRQtBAzrPokPCItuu/giphy.gif');
+    background-color: rgb(19, 18, 18);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
